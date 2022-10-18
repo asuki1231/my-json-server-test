@@ -1,42 +1,50 @@
 [
   {
-    "name": "ゴマハギ",
-    "price": 1700,
-    "type": "fish"
+    "fish": [
+      {
+        "name": "ゴマハギ",
+        "price": 1700,
+        "type": "fish"
+      },
+      {
+        "name": "カクレクマノミ",
+        "price": 1200,
+        "type": "fish"
+      },
+      {
+        "name": "ハタタテハゼ",
+        "price": 1500,
+        "type": "fish"
+      },
+      {
+        "name": "ナンヨウハギ",
+        "price": 5800,
+        "type": "fish"
+      }
+    ]
   },
   {
-    "name": "カクレクマノミ",
-    "price": 1200,
-    "type": "fish"
-  },
-  {
-    "name": "ハタタテハゼ",
-    "price": 1500,
-    "type": "fish"
-  },
-  {
-    "name": "ナンヨウハギ",
-    "price": 5800,
-    "type": "fish"
-  },
-  {
-    "name": "ナガレハナサンゴ",
-    "price": 9800,
-    "type": "coral"
-  },
-  {
-    "name": "チヂミトサカ",
-    "price": 4800,
-    "type": "coral"
-  },
-  {
-    "name": "ミドリイシ",
-    "price": 6800,
-    "type": "coral"
-  },
-  {
-    "name": "パラオクサビライシ",
-    "price": 8000,
-    "type": "coral"
+    "coral": [
+      {
+        "name": "ナガレハナサンゴ",
+        "price": 9800,
+        "type": "coral"
+      },
+      {
+        "name": "チヂミトサカ",
+        "price": 4800,
+        "type": "coral"
+      },
+      {
+        "name": "ミドリイシ",
+        "price": 6800,
+        "type": "coral"
+      },
+      {
+        "name": "パラオクサビライシ",
+        "price": 8000,
+        "type": "coral"
+      }
+    ]
   }
 ]
