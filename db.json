@@ -1,50 +1,31 @@
-[
+{
+  "posts": [
     {
-        "fishes": [
-            {
-                "name": "ゴマハギ",
-                "price": 1700,
-                "type": "fish"
-            },
-            {
-                "name": "カクレクマノミ",
-                "price": 1200,
-                "type": "fish"
-            },
-            {
-                "name": "ハタタテハゼ",
-                "price": 1500,
-                "type": "fish"
-            },
-            {
-                "name": "ナンヨウハギ",
-                "price": 5800,
-                "type": "fish"
-            }
-        ]
+      "id": 1,
+      "title": "Post 1"
     },
     {
-        "corals": [
-            {
-                "name": "ナガレハナサンゴ",
-                "price": 9800,
-                "type": "coral"
-            },
-            {
-                "name": "チヂミトサカ",
-                "price": 4800,
-                "type": "coral"
-            },
-            {
-                "name": "ミドリイシ",
-                "price": 6800,
-                "type": "coral"
-            },
-            {
-                "name": "パラオクサビライシ",
-                "price": 8000,
-                "type": "coral"
-            }
-        ]
+      "id": 2,
+      "title": "Post 2"
+    },
+    {
+      "id": 3,
+      "title": "Post 3"
     }
-]
+  ],
+  "comments": [
+    {
+      "id": 1,
+      "body": "some comment",
+      "postId": 1
+    },
+    {
+      "id": 2,
+      "body": "some comment",
+      "postId": 1
+    }
+  ],
+  "profile": {
+    "name": "typicode"
+  }
+}
